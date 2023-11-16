@@ -26,7 +26,7 @@ func TestGeneratePaseto(t *testing.T) {
 func TestUpdateData(t *testing.T) {
 	data := LonLatProperties{
 		Type:   "Polygon",
-		Name:   "lodons",
+		Name:   "rizki",
 		Volume: "1",
 	}
 	up := UpdateNameGeo("MONGOSTRING", "dbgis", context.Background(), data)
@@ -36,7 +36,7 @@ func TestUpdateData(t *testing.T) {
 func TestDeleteDataGeo(t *testing.T) {
 	data := LonLatProperties{
 		Type:   "Polygon",
-		Name:   "iyas",
+		Name:   "rizki",
 		Volume: "1",
 	}
 	up := DeleteDataGeo("MONGOSTRING", "dbgis", context.Background(), data)
